@@ -7,9 +7,7 @@ La SAÉ est découpée en deux parties.
 
 
 
-**Attention :** L'évaluation de cette SAÉ se fera notamment durant les contrôles de R101. L'évaluation de la partie 1 de la SAÉ se fera en partie lors du troisième contrôle de  la ressource R101 (prévu le 8 décembre 2021). L'évaluation de la partie 2 se fera en partie lors du dernier contrôle de R101 (prévu le 21 janvier 2022).
-
- Il est donc impératif d'avoir terminé les parties de la SAÉ avant les contrôles. De plus, il faut connaître le sujet et le code (les structures de données utilisées et les diffférentes fonctions).
+**Attention :** L'évaluation de cette SAÉ se fera notamment durant les contrôles de R101. L'évaluation de la partie 1 de la SAÉ se fera en partie lors du troisième contrôle de  la ressource R101 (prévu le 8 décembre 2021). L'évaluation de la partie 2 se fera en partie lors du dernier contrôle de R101 (prévu le 21 janvier 2022). Pour les contrôles, il faut connaître le sujet et le code (les structures de données utilisées et les diffférentes fonctions).
 
 ## Sujet
 
