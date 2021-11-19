@@ -1,5 +1,8 @@
 def est_base(c):
-    pass
+    if c =='A' or c == 'T' or c == 'G' or c == 'C':
+        return True 
+    else:
+        return False
 
 
 def est_adn(s):
