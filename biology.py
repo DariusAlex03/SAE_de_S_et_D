@@ -5,7 +5,7 @@ def est_base(c):
         return False
 
 def est_adn(s):
-    pass
+    pass    #commentaire
 
 def arn(adn):
     pass
