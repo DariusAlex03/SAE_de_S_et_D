@@ -7,7 +7,6 @@ def est_base(c):
 def est_adn(s):
     pass
 
-
 def arn(adn):
     pass
 
