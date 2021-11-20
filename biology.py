@@ -4,7 +4,6 @@ def est_base(c):
     else:
         return False
 
-
 def est_adn(s):
     pass
 
