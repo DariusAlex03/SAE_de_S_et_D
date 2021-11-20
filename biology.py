@@ -9,7 +9,9 @@ def est_adn(s):
 
 def arn(adn):
     pass
-
+vsy
+cest bon ?
+j'essaye de push ca pour voir'
 
 def arn_to_codons(arn):
     pass
