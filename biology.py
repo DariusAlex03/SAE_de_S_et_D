@@ -5,7 +5,17 @@ def est_base(c):
         return False
 
 def est_adn(s):
-    pass    #commentaire
+    for a in s :
+        if est_base(a) == False:
+            return False
+        else:
+            return True
+print(est_adn('AABBTR'))
+j'ai fini pour l'instant
+je fait un push
+
+
+
 
 def arn(adn):
     pass
