@@ -1,5 +1,5 @@
 def est_base(c):
-    if c =='A' or c == 'T' or c == 'G' or c == 'C':
+    if c == 'A' or c == 'T' or c == 'G' or c == 'C':
         return True 
     else:
         return False
