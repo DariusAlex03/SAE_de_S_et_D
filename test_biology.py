@@ -4,9 +4,7 @@ def test_est_base():
     assert by.est_base('A') == True
     assert by.est_base('z') == False
     assert by.est_base( 0 ) == False
-ok
-ok juste att je te disquand tu peux refaire des modif
-j'ai fini je fais juste un push la sur le git'
+
 def test_est_adn():
     assert by.est_adn('AABBTR') == False
     assert by.est_adn('AACBTC') == True

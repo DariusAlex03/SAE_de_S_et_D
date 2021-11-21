@@ -5,17 +5,17 @@ def est_base(c):
         return False
 
 def est_adn(s):
-    for a in s :
-        if est_base(a) == False:
-            return False
+    val = False
+    i = 0
+    while i < len(s):
+        if est_base(s[i]) == True:
+            val == True
         else:
-            return True
-print(est_adn('AABBTR'))
-j'ai fini pour l'instant
-je fait un push
+            return False
+        i = i + 1
 
-
-
+est_adn('ACTG')
+## essaie de coller ca voir si pour toi ca marche, pour moi ca veut pas lancer
 
 def arn(adn):
     pass
