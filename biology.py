@@ -18,10 +18,21 @@ est_adn('ACTG')
 ## essaie de coller ca voir si pour toi ca marche, pour moi ca veut pas lancer
 
 def arn(adn):
-    pass
-vsy
-cest bon ?
-j'essaye de push ca pour voir'
+    nvx = ''
+    i = 0
+    if est_adn(adn) == True:
+        while i < len(adn):
+            if adn[i] == 'T':
+                nvx = nvx + 'U'
+            else:
+                nvx = nvx + adn[i]
+            i = i + 1
+        print(nvx)
+        return nvx
+    else:
+        print("Ce n'est pas un adn !!!")
+        return None
+    #ce code est bon. je lai tester
 
 def arn_to_codons(arn):
     pass
