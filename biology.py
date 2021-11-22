@@ -3,19 +3,17 @@ def est_base(c):
         return True 
     else:
         return False
-
+#ce code est bon je lai tester
 def est_adn(s):
-    val = False
     i = 0
     while i < len(s):
         if est_base(s[i]) == True:
-            val == True
+            a = True
         else:
             return False
         i = i + 1
-
-est_adn('ACTG')
-## essaie de coller ca voir si pour toi ca marche, pour moi ca veut pas lancer
+    return True
+# Ce code est bon je lai tester
 
 def arn(adn):
     nvx = ''
@@ -33,14 +31,28 @@ def arn(adn):
         print("Ce n'est pas un adn !!!")
         return None
     #ce code est bon. je lai tester
+    #oublie pas de faire les teste pour les nouvelles fonctions !!!!!!!!!
+    #jai fini tu peut push stv
+
 
 def arn_to_codons(arn):
-    pass
+    t = []
+    codons = ""
+    i = 0
+    compt = 0
+    if codons[compt] <= 2:
+        while i < len(arn):
+            codons = condons + arn[i] #####################################################
+            print(i)                  ############# A TERMINERRRRRR #######################
+            i = i + 1                 #####################################################
+            print(codons)             # bonne nuit frero 
+    if codons[]  
+        t.append(codons)
+    codons =
 
 
 def load_dico_codons_aa(filename):
     pass
-
 
 def codons_stop(dico):
     pass

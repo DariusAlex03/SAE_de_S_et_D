@@ -7,7 +7,7 @@ def test_est_base():
 
 def test_est_adn():
     assert by.est_adn('AABBTR') == False
-    assert by.est_adn('AACBTC') == True
+    assert by.est_adn('AACGTC') == True
     assert by.est_adn('AA00TR') == False
 
 def test_arn(adn):
