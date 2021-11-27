@@ -15,6 +15,7 @@ def est_adn(s):    #code bon
     :return: retourne une valeur booléne
     Cette fonction vérifie sii dans la chaîne introduite il y a que les caractères 'A','T','G','C'
     """
+    #je modifie ce comm
     i = 0
     while i < len(s):
         if est_base(s[i]) == True:
@@ -49,6 +50,10 @@ def arn(adn):    #code bon
 
 
 def arn_to_codons(arn):
+    """
+    :param arn:
+    :return:
+    """
     t = []
     codons = ""
     i = 0
