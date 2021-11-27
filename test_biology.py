@@ -21,7 +21,6 @@ def test_arn_to_codons(arn):
 def test_load_dico_codons_aa(filename):
     assert by.load_dico_codons_aa()
 
-
 def test_codons_stop(dico):
     assert by.codons_stop()
 

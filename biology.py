@@ -1,10 +1,20 @@
-def est_base(c):
+def est_base(c):    #code bon
+    """
+    :param c: correspond à un seul caractère
+    :return: renvoie une valeur boolene, soit True soit False
+    Cette fonction vérifie si le caractère introduit en paramètre est bien un des caractères 'A','T','G','C'
+    """
     if c == 'A' or c == 'T' or c == 'G' or c == 'C':
         return True 
     else:
         return False
-#ce code est bon je lai tester
-def est_adn(s):
+
+def est_adn(s):    #code bon
+    """
+    :param s: correspond à une chaine de caractères
+    :return: retourne une valeur booléne
+    Cette fonction vérifie sii dans la chaîne introduite il y a que les caractères 'A','T','G','C'
+    """
     i = 0
     while i < len(s):
         if est_base(s[i]) == True:
@@ -13,9 +23,15 @@ def est_adn(s):
             return False
         i = i + 1
     return True
-# Ce code est bon je lai tester
 
-def arn(adn):
+
+def arn(adn):    #code bon
+    """
+    :param adn: une chaine de caractère qui correspondent à un adn
+    :return: si la nouvelle chaine de caractère avec les 'T' qui sont changée par de "U"
+    Cette fonction en prend une chaine de caractères (un adn) introduite en paramètres, vérifie si cela correspond bien à
+    un adn ensuite elle elle transforme les caractères 'T' par des 'U'
+    """
     nvx = ''
     i = 0
     if est_adn(adn) == True:
@@ -30,9 +46,6 @@ def arn(adn):
     else:
         print("Ce n'est pas un adn !!!")
         return None
-    #ce code est bon. je lai tester
-    #oublie pas de faire les teste pour les nouvelles fonctions !!!!!!!!!
-    #jai fini tu peut push stv
 
 
 def arn_to_codons(arn):
