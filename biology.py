@@ -13,9 +13,8 @@ def est_adn(s):    #code bon
     """
     :param s: correspond à une chaine de caractères
     :return: retourne une valeur booléne
-    Cette fonction vérifie sii dans la chaîne introduite il y a que les caractères 'A','T','G','C'
+    Cette fonction vérifie si dans la chaîne introduite il y a que les caractères 'A','T','G','C'
     """
-    #je modifie ce comm
     i = 0
     while i < len(s):
         if est_base(s[i]) == True:
@@ -51,23 +50,25 @@ def arn(adn):    #code bon
 
 def arn_to_codons(arn):
     """
+    Cette fonction permet de decouper des ARN en codons (groupe de 3)
     :param arn:
-    :return:
+    :return: t qui est le tableau final
     """
     t = []
-    codons = ""
     i = 0
     compt = 0
-    if codons[compt] <= 2:
-        while i < len(arn):
-            codons = condons + arn[i] #####################################################
-            print(i)                  ############# A TERMINERRRRRR #######################
-            i = i + 1                 #####################################################
-            print(codons)             # bonne nuit frero 
-    if codons[]  
-        t.append(codons)
-    codons =
-
+    codons = ""
+    while i < len(arn):
+        if compt < 3:
+            codons = codons + arn[1]
+            i += 1
+            compt = compt + 1
+            if compt == 3:
+                t.append(codons)
+                codons = ""
+                compt = 0
+                if i == len(arn) -1 or i == len(arn) -2:
+                    return t
 
 def load_dico_codons_aa(filename):
     pass
