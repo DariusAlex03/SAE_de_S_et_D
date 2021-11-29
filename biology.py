@@ -71,10 +71,16 @@ def arn_to_codons(arn):
                     return t
 
 def load_dico_codons_aa(filename):
-    pass
+    filename = ('/data/codons_aa.json')
+    mode = 'r'
+    file = open.(filename, mode)
+
+    return file
 
 def codons_stop(dico):
-    pass
+    tab = []
+    dico = {}
+    tab.append(load_dico_codons_aa())
 
 
 def codons_to_aa(codons, dico):
