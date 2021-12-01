@@ -57,24 +57,22 @@ def arn_to_codons(arn):
     t = []
     i = 0
     compt = 0
-    codons = ""
+    codons = ''
     while i < len(arn):
         if compt < 3:
-            codons = codons + arn[1]
+            codons = codons + arn[i]
             i += 1
             compt = compt + 1
             if compt == 3:
                 t.append(codons)
-                codons = ""
+                codons = ''
                 compt = 0
                 if i == len(arn) -1 or i == len(arn) -2:
                     return t
 
 def load_dico_codons_aa(filename):
-    filename = ('/data/codons_aa.json')
-    mode = 'r'
-    file = open.(filename, mode)
-
+    path = ('/data/' + filename)
+    file = open(path, 'r')
     return file
 
 def codons_stop(dico):
@@ -85,8 +83,6 @@ def codons_stop(dico):
 
 def codons_to_aa(codons, dico):
     pass
-
-
 
 
 def nextIndice(tab, ind, elements):
@@ -107,3 +103,8 @@ def seq_codantes_to_seq_aas(seq_codantes, dico):
 
 def adn_encode_molecule(adn, dico, molecule):
     pass
+
+if __name__ == '__main__':
+    est_base()
+    est_adn()
+    arn()

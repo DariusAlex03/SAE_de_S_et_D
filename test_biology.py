@@ -17,7 +17,7 @@ def test_arn(adn):
 
 def test_arn_to_codons(arn):
     assert by.arn_to_codons('ARGCATGCATCG') == (["ARG", "CAT", "GCA", "TCG"])
-    assert by.arn_to_codons()
+
 
 def test_load_dico_codons_aa(filename):
     assert by.load_dico_codons_aa()
