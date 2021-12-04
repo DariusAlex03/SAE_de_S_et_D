@@ -106,12 +106,7 @@ def codons_to_aa(codons, dico):
             tab.append(dico[codon])
     return tab
 
-def nextIndice(
-
-
-
-
-        tab, ind, elements):
+def nextIndice(tab, ind, elements):
     pass
 
 
