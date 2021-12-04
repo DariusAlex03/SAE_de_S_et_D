@@ -45,9 +45,9 @@ def arn(adn):
     if est_adn(adn) == True:
         for i in adn:
             if 'T' == i:
-                nvx = nvx + 'U'
+                nvx += 'U'
             else:
-                nvx = nvx + i
+                nvx += i
         return nvx
     else:
         return None
@@ -63,7 +63,7 @@ def arn_to_codons(arn):
     r = len(arn)%3
     if 0 != r: # Si len(arn) n'est pas un multiple de 3, ca retourne le tableau final
                # moins le nombre de caractere restants
-        a = arn[0: len(arn) - r]
+        a = arn[0: len(arn) - r] ####################################
     return [a[i: i+3] for i in range(0, len(a), 3)]
 
 def load_dico_codons_aa(filename):
@@ -93,8 +93,8 @@ def codons_stop(dico):
 
 def codons_to_aa(codons, dico):
     """
-    :param codons:
-    :param dico: ici le dico que renvoie la derniere fonction
+    :param codons: tableau a testé avec comme valeurs des codons
+    :param dico: ici le dico que renvoie la fonction load
     :return: le tableau avec comme valeurs les acides aminés
     """
     tab = []
